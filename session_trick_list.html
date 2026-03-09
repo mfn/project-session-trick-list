@@ -124,6 +124,18 @@
     padding: 1px 2px;
   }
 
+  /* 2x2 grid layout for combined pressure flips page */
+  .page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px 24px;
+  }
+
+  .quarter {
+    min-width: 0;
+  }
+
   /* Screen preview: approximate landscape A4 */
   @media screen {
     body { padding: 20px; }
@@ -409,7 +421,7 @@
       <tbody>
       <tr class="cat-row"><td colspan="5">Low Friction Grinds</td></tr>
       <tr><td>50-50</td>          <td class="ginput">↓</td> <td class="ginput">↑</td>  <td class="ginput">↓</td> <td class="ginput">↑</td></tr>
-      <tr><td>Boardslide</td>     <td class="ginput">→</td> <td class="ginput">←</td>  <td class="ginput">→</td> <td class="ginput">➡</td></tr>
+      <tr><td>Boardslide</td>     <td class="ginput">→</td> <td class="ginput">←</td>  <td class="ginput">→</td> <td class="ginput">→</td></tr>
       <tr><td>Lipslide</td>       <td class="ginput">←</td> <td class="ginput">→</td>  <td class="ginput">→</td> <td class="ginput">←</td></tr>
       <tr><td>Willy</td>          <td class="ginput">↘</td> <td class="ginput">↑</td>  <td class="ginput">↙</td> <td class="ginput">↑</td></tr>
       <tr><td>Over Willy</td>     <td class="ginput">↙</td> <td class="ginput">↑</td>  <td class="ginput">↘</td> <td class="ginput">↑</td></tr>
@@ -436,11 +448,11 @@
 </div>
 
 
-<!-- ==================== PAGE 4: Normal + Nollie — Pressure Flips ==================== -->
-<div class="page">
+<!-- ==================== PAGE 4: All Pressure Flips (2x2 grid) ==================== -->
+<div class="page page-grid">
 
-  <!-- LEFT HALF: Normal Stance Pressure Flips -->
-  <div class="half">
+  <!-- TOP-LEFT: Normal Stance Pressure Flips -->
+  <div class="quarter">
     <div class="section-title">Basic Pressure Tricks</div>
     <div class="section-subtitle">Regular: Normal Stance</div>
     <table>
@@ -471,8 +483,8 @@
     </table>
   </div>
 
-  <!-- RIGHT HALF: Nollie Stance Pressure Flips -->
-  <div class="half">
+  <!-- TOP-RIGHT: Nollie Stance Pressure Flips -->
+  <div class="quarter">
     <div class="section-title">Basic Pressure Tricks</div>
     <div class="section-subtitle">Regular: Nollie Stance</div>
     <table>
@@ -503,13 +515,8 @@
     </table>
   </div>
 
-</div>
-
-<!-- ==================== PAGE 5: Switch + Fakie — Pressure Flips ==================== -->
-<div class="page">
-
-  <!-- LEFT HALF: Switch Stance Pressure Flips -->
-  <div class="half">
+  <!-- BOTTOM-LEFT: Switch Stance Pressure Flips -->
+  <div class="quarter">
     <div class="section-title">Basic Pressure Tricks</div>
     <div class="section-subtitle">Regular: Switch Stance</div>
     <table>
@@ -540,8 +547,8 @@
     </table>
   </div>
 
-  <!-- RIGHT HALF: Fakie Stance Pressure Flips -->
-  <div class="half">
+  <!-- BOTTOM-RIGHT: Fakie Stance Pressure Flips -->
+  <div class="quarter">
     <div class="section-title">Basic Pressure Tricks</div>
     <div class="section-subtitle">Regular: Fakie Stance</div>
     <table>
