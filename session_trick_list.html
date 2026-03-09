@@ -97,10 +97,10 @@
 
   /* Column widths — grind tables */
   col.col-grind-name { width: 26%; }
-  col.col-grind-fs-ls { width: 12%; }
-  col.col-grind-fs-rs { width: 12%; }
-  col.col-grind-bs-ls { width: 12%; }
-  col.col-grind-bs-rs { width: 12%; }
+  col.col-grind-fs-ls { width: 8%; }
+  col.col-grind-fs-rs { width: 8%; }
+  col.col-grind-bs-ls { width: 8%; }
+  col.col-grind-bs-rs { width: 8%; }
 
   /* Grind table header grouping */
   thead th.grind-group {
@@ -111,9 +111,18 @@
   }
 
   thead th.grind-sub {
-    text-align: center;
     font-size: 6.5pt;
     padding: 2px 4px;
+  }
+  thead th.grind-sub:nth-child(1),
+  thead th.grind-sub:nth-child(3) {
+    text-align: right;
+    padding-right: 2px;
+  }
+  thead th.grind-sub:nth-child(2),
+  thead th.grind-sub:nth-child(4) {
+    text-align: left;
+    padding-left: 2px;
   }
 
   td.ginput {
@@ -122,6 +131,18 @@
     line-height: 1.1;
     letter-spacing: 1px;
     padding: 1px 2px;
+  }
+
+  /* Visual grouping: pull LS/RS pairs closer within Frontside/Backside */
+  td.ginput:nth-child(2),
+  td.ginput:nth-child(4) {
+    text-align: right;
+    padding-right: 2px;
+  }
+  td.ginput:nth-child(3),
+  td.ginput:nth-child(5) {
+    text-align: left;
+    padding-left: 2px;
   }
 
   /* 2x2 grid layout for combined pressure flips page */
