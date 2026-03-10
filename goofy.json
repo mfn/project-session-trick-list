@@ -1,0 +1,315 @@
+{
+  "stance": "Goofy",
+  "flipTricks": {
+    "normal": {
+      "label": "Normal Stance",
+      "categories": [
+        {
+          "name": "High Pop",
+          "tricks": [
+            { "name": "Ollie", "ls": "↓", "rs": "↑" },
+            { "name": "Kickflip", "ls": "↓", "rs": "→" },
+            { "name": "Heelflip", "ls": "↓", "rs": "←" },
+            { "name": "BS Pop Shove-it", "ls": "↓ ↗", "rs": "↑" },
+            { "name": "FS Pop Shove-it", "ls": "↓ ↖", "rs": "↑" }
+          ]
+        },
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Varial Flip", "ls": "↓ ↗", "rs": "→" },
+            { "name": "Varial Heel", "ls": "↓ ↖", "rs": "←" },
+            { "name": "Hardflip", "ls": "↓ ↖", "rs": "→" },
+            { "name": "Inward Heel", "ls": "↓ ↗", "rs": "←" },
+            { "name": "Hardflip 360", "ls": "↓ ↻", "rs": "→" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "FS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" },
+            { "name": "BS Pop Shove-it 360", "ls": "↓ ↻", "rs": "↑" },
+            { "name": "360 Flip", "ls": "↓ ↺", "rs": "→" },
+            { "name": "Laserflip", "ls": "↓ ↻", "rs": "←" },
+            { "name": "Inward 360", "ls": "↓ ↺", "rs": "←" },
+            { "name": "Low Pop Ollie", "ls": "↓", "rs": "↓" }
+          ]
+        }
+      ]
+    },
+    "nollie": {
+      "label": "Nollie Stance",
+      "categories": [
+        {
+          "name": "High Pop",
+          "tricks": [
+            { "name": "Nollie", "ls": "↑", "rs": "↓" },
+            { "name": "Nollie Flip", "ls": "↑", "rs": "→" },
+            { "name": "Nollie Heel", "ls": "↑", "rs": "←" },
+            { "name": "Nollie FS Pop Shove-it", "ls": "↑ ↖", "rs": "↓" },
+            { "name": "Nollie BS Pop Shove-it", "ls": "↑ ↗", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Nollie Varial Flip", "ls": "↑ ↖", "rs": "→" },
+            { "name": "Nollie Varial Heel", "ls": "↑ ↗", "rs": "←" },
+            { "name": "Nollie Hardflip", "ls": "↑ ↖", "rs": "→" },
+            { "name": "Nollie Inward Heel", "ls": "↑ ↖", "rs": "←" },
+            { "name": "Nollie BS Pop Shove-it 360", "ls": "↑ ↻", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Nollie FS Pop Shove-it 360", "ls": "↑ ↺", "rs": "↓" },
+            { "name": "Nollie Hardflip 360", "ls": "↑ ↺", "rs": "→" },
+            { "name": "Nollie Laser Flip", "ls": "↑ ↺", "rs": "←" },
+            { "name": "Nollie Inward Heel 360", "ls": "↑ ↻", "rs": "←" },
+            { "name": "Nollie 360 Flip", "ls": "↑ ↻", "rs": "→" },
+            { "name": "Low Pop Nollie", "ls": "↑", "rs": "↑" }
+          ]
+        }
+      ]
+    },
+    "switch": {
+      "label": "Switch Stance",
+      "categories": [
+        {
+          "name": "High Pop",
+          "tricks": [
+            { "name": "Switch Ollie", "ls": "↓", "rs": "↑" },
+            { "name": "Switch Kickflip", "ls": "↓", "rs": "←" },
+            { "name": "Switch Heelflip", "ls": "↓", "rs": "→" },
+            { "name": "Switch BS Pop Shove-it", "ls": "↓ ↖", "rs": "↑" },
+            { "name": "Switch FS Pop Shove-it", "ls": "↓ ↗", "rs": "↑" }
+          ]
+        },
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Switch Varial Flip", "ls": "↓ ↖", "rs": "←" },
+            { "name": "Switch Varial Heel", "ls": "↓ ↗", "rs": "→" },
+            { "name": "Switch Hardflip", "ls": "↓ ↗", "rs": "←" },
+            { "name": "Switch Inward Heel", "ls": "↓ ↖", "rs": "→" },
+            { "name": "Switch Hardflip 360", "ls": "↓ ↺", "rs": "←" },
+            { "name": "Switch BS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Switch FS Pop Shove-it 360", "ls": "↓ ↻", "rs": "↑" },
+            { "name": "Switch 360 Flip", "ls": "↓ ↻", "rs": "←" },
+            { "name": "Switch Laser Flip", "ls": "↓ ↺", "rs": "→" },
+            { "name": "Switch Inward Heel 360", "ls": "↓ ↻", "rs": "→" },
+            { "name": "Switch Low Pop Ollie", "ls": "↓", "rs": "↓" }
+          ]
+        }
+      ]
+    },
+    "fakie": {
+      "label": "Fakie Stance",
+      "categories": [
+        {
+          "name": "High Pop",
+          "tricks": [
+            { "name": "Fakie Ollie", "ls": "↑", "rs": "↓" },
+            { "name": "Fakie Kickflip", "ls": "↑", "rs": "←" },
+            { "name": "Fakie Heelflip", "ls": "↑", "rs": "→" },
+            { "name": "Fakie BS Pop Shove-it", "ls": "↑ ↗", "rs": "↓" },
+            { "name": "Fakie FS Pop Shove-it", "ls": "↑ ↖", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Fakie Varial Flip", "ls": "↑ ↗", "rs": "←" },
+            { "name": "Fakie Varial Heel", "ls": "↑ ↖", "rs": "→" },
+            { "name": "Fakie Hardflip", "ls": "↑ ↖", "rs": "←" },
+            { "name": "Fakie Inward Heel", "ls": "↑ ↗", "rs": "→" },
+            { "name": "Fakie BS Pop Shove-it 360", "ls": "↑ ↻", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Fakie FS Pop Shove-it 360", "ls": "↑ ↺", "rs": "↓" },
+            { "name": "Fakie 360 Flip", "ls": "↑ ↺", "rs": "←" },
+            { "name": "Fakie Laser Flip", "ls": "↑ ↻", "rs": "→" },
+            { "name": "Fakie Inward 360", "ls": "↑ ↺", "rs": "→" },
+            { "name": "Fakie Hardflip 360", "ls": "↑ ↻", "rs": "←" },
+            { "name": "Fakie Low Pop Ollie", "ls": "↑", "rs": "↑" }
+          ]
+        }
+      ]
+    }
+  },
+  "grinds": {
+    "normal": {
+      "label": "Normal Stance",
+      "categories": [
+        {
+          "name": "Low Friction Grinds",
+          "tricks": [
+            { "name": "50-50", "fs": { "ls": "↑", "rs": "↓" }, "bs": { "ls": "↑", "rs": "↓" } },
+            { "name": "Boardslide", "fs": { "ls": "→", "rs": "←" }, "bs": { "ls": "←", "rs": "→" } },
+            { "name": "Lipslide", "fs": { "ls": "←", "rs": "→" }, "bs": { "ls": "→", "rs": "←" } },
+            { "name": "Willy", "fs": { "ls": "↘", "rs": "↑" }, "bs": { "ls": "↙", "rs": "↑" } },
+            { "name": "Over Willy", "fs": { "ls": "↙", "rs": "↑" }, "bs": { "ls": "↘", "rs": "↑" } },
+            { "name": "Five-0", "fs": { "ls": "↓", "rs": "—" }, "bs": { "ls": "↓", "rs": "—" } },
+            { "name": "Noseslide", "fs": { "ls": "—", "rs": "←" }, "bs": { "ls": "—", "rs": "→" } },
+            { "name": "Tail", "fs": { "ls": "←", "rs": "—" }, "bs": { "ls": "→", "rs": "—←" } }
+          ]
+        },
+        {
+          "name": "Mid Friction Grinds",
+          "tricks": [
+            { "name": "Smith", "fs": { "ls": "↓", "rs": "↗" }, "bs": { "ls": "↓", "rs": "↖" } },
+            { "name": "Feeble", "fs": { "ls": "↓", "rs": "↖" }, "bs": { "ls": "↓", "rs": "↗" } },
+            { "name": "Nosegrind", "fs": { "ls": "—", "rs": "↑" }, "bs": { "ls": "—", "rs": "↑" } },
+            { "name": "Crooked", "fs": { "ls": "—", "rs": "↖" }, "bs": { "ls": "—", "rs": "↗" } },
+            { "name": "Overcrook", "fs": { "ls": "—", "rs": "↗" }, "bs": { "ls": "—", "rs": "↖" } },
+            { "name": "Salad", "fs": { "ls": "↘", "rs": "—" }, "bs": { "ls": "↙", "rs": "—" } },
+            { "name": "Suski", "fs": { "ls": "↙", "rs": "—" }, "bs": { "ls": "↘", "rs": "—" } }
+          ]
+        },
+        {
+          "name": "Hi Friction Grinds",
+          "tricks": [
+            { "name": "Noseblunt", "fs": { "ls": "—", "rs": "→" }, "bs": { "ls": "—", "rs": "←" } },
+            { "name": "Blunt", "fs": { "ls": "→", "rs": "—" }, "bs": { "ls": "←", "rs": "—" } }
+          ]
+        }
+      ]
+    },
+    "switch": {
+      "label": "Switch Stance",
+      "categories": [
+        {
+          "name": "Low Friction Grinds",
+          "tricks": [
+            { "name": "50-50", "fs": { "ls": "↑", "rs": "↓" }, "bs": { "ls": "↑", "rs": "↓" } },
+            { "name": "Boardslide", "fs": { "ls": "→", "rs": "←" }, "bs": { "ls": "←", "rs": "→" } },
+            { "name": "Lipslide", "fs": { "ls": "←", "rs": "→" }, "bs": { "ls": "→", "rs": "←" } },
+            { "name": "Willy", "fs": { "ls": "↑", "rs": "↙" }, "bs": { "ls": "↑", "rs": "↘" } },
+            { "name": "Over Willy", "fs": { "ls": "↑", "rs": "↘" }, "bs": { "ls": "↑", "rs": "↙" } },
+            { "name": "Five-0", "fs": { "ls": "—", "rs": "↓" }, "bs": { "ls": "—", "rs": "↓" } },
+            { "name": "Noseslide", "fs": { "ls": "→", "rs": "—" }, "bs": { "ls": "←", "rs": "—" } },
+            { "name": "Tail", "fs": { "ls": "—", "rs": "→" }, "bs": { "ls": "—", "rs": "←" } }
+          ]
+        },
+        {
+          "name": "Mid Friction Grinds",
+          "tricks": [
+            { "name": "Smith", "fs": { "ls": "↖", "rs": "↓" }, "bs": { "ls": "↗", "rs": "↓" } },
+            { "name": "Feeble", "fs": { "ls": "↗", "rs": "↓" }, "bs": { "ls": "↖", "rs": "↓" } },
+            { "name": "Nosegrind", "fs": { "ls": "↑", "rs": "—" }, "bs": { "ls": "↑", "rs": "—" } },
+            { "name": "Crooked", "fs": { "ls": "↗", "rs": "—" }, "bs": { "ls": "↖", "rs": "—" } },
+            { "name": "Overcrook", "fs": { "ls": "↖", "rs": "—" }, "bs": { "ls": "↗", "rs": "—" } },
+            { "name": "Salad", "fs": { "ls": "—", "rs": "↙" }, "bs": { "ls": "—", "rs": "↘" } },
+            { "name": "Suski", "fs": { "ls": "—", "rs": "↘" }, "bs": { "ls": "—", "rs": "↙" } }
+          ]
+        },
+        {
+          "name": "Hi Friction Grinds",
+          "tricks": [
+            { "name": "Noseblunt", "fs": { "ls": "←", "rs": "—" }, "bs": { "ls": "→", "rs": "—" } },
+            { "name": "Blunt", "fs": { "ls": "—", "rs": "←" }, "bs": { "ls": "—", "rs": "→" } }
+          ]
+        }
+      ]
+    }
+  },
+  "pressureTricks": {
+    "normal": {
+      "label": "Normal Stance",
+      "categories": [
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Pressure Heelflip", "ls": "←", "rs": "↓" },
+            { "name": "Pressure Flip", "ls": "← ↗", "rs": "↓" },
+            { "name": "Pressure Hardflip", "ls": "→ ↖", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Pressure Kickflip", "ls": "→", "rs": "↓" },
+            { "name": "Pressure 360", "ls": "← ↺", "rs": "↓" },
+            { "name": "Pressure Hardflip 360", "ls": "→ ↻", "rs": "↓" },
+            { "name": "Impossible", "ls": "↓ ↺", "rs": "↓" }
+          ]
+        }
+      ]
+    },
+    "nollie": {
+      "label": "Nollie Stance",
+      "categories": [
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Nollie Pressure Heelflip", "ls": "←", "rs": "↑" },
+            { "name": "Nollie Pressure Flip", "ls": "← ↖", "rs": "↑" },
+            { "name": "Nollie Pressure Hardflip", "ls": "→ ↗", "rs": "↑" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Nollie Pressure Kickflip", "ls": "→", "rs": "↑" },
+            { "name": "Nollie Pressure 360 Flip", "ls": "← ↻", "rs": "↑" },
+            { "name": "Nollie Pressure Hardflip 360", "ls": "→ ↺", "rs": "↑" },
+            { "name": "Nollie Impossible", "ls": "↑ ↻", "rs": "↑" }
+          ]
+        }
+      ]
+    },
+    "switch": {
+      "label": "Switch Stance",
+      "categories": [
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Switch Pressure Heelflip", "ls": "→", "rs": "↓" },
+            { "name": "Switch Pressure Flip", "ls": "→ ↖", "rs": "↓" },
+            { "name": "Switch Pressure Hardflip", "ls": "← ↗", "rs": "↓" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Switch Pressure Kickflip", "ls": "←", "rs": "↓" },
+            { "name": "Switch Pressure 360 Flip", "ls": "→ ↻", "rs": "↓" },
+            { "name": "Switch Pressure Hardflip 360", "ls": "← ↺", "rs": "↓" },
+            { "name": "Switch Impossible", "ls": "↓ ↻", "rs": "↓" }
+          ]
+        }
+      ]
+    },
+    "fakie": {
+      "label": "Fakie Stance",
+      "categories": [
+        {
+          "name": "Mid Pop",
+          "tricks": [
+            { "name": "Fakie Pressure Heelflip", "ls": "→", "rs": "↑" },
+            { "name": "Fakie Pressure Flip", "ls": "→ ↗", "rs": "↑" },
+            { "name": "Fakie Pressure Hardflip", "ls": "← ↖", "rs": "↑" }
+          ]
+        },
+        {
+          "name": "Low Pop",
+          "tricks": [
+            { "name": "Fakie Pressure Kickflip", "ls": "←", "rs": "↑" },
+            { "name": "Fakie Pressure 360", "ls": "→ ↺", "rs": "↑" },
+            { "name": "Fakie Pressure Hardflip 360", "ls": "← ↻", "rs": "↑" },
+            { "name": "Fakie Impossible", "ls": "↑ ↺", "rs": "↑" }
+          ]
+        }
+      ]
+    }
+  }
+}
