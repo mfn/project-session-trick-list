@@ -64,10 +64,10 @@
           "name": "Low Pop",
           "tricks": [
             { "name": "Nollie FS Pop Shove-it 360", "ls": "↑ ↺", "rs": "↓" },
-            { "name": "Nollie Hardflip 360", "ls": "↑ ↺", "rs": "→" },
+            { "name": "Nollie 360 Flip", "ls": "↑ ↻", "rs": "→" },
             { "name": "Nollie Laser Flip", "ls": "↑ ↺", "rs": "←" },
             { "name": "Nollie Inward Heel 360", "ls": "↑ ↻", "rs": "←" },
-            { "name": "Nollie 360 Flip", "ls": "↑ ↻", "rs": "→" },
+            { "name": "Nollie Hardflip 360", "ls": "↑ ↺", "rs": "→" },
             { "name": "Low Pop Nollie", "ls": "↑", "rs": "↑" }
           ]
         }
@@ -93,13 +93,13 @@
             { "name": "Switch Varial Heel", "ls": "↓ ↗", "rs": "→" },
             { "name": "Switch Hardflip", "ls": "↓ ↗", "rs": "←" },
             { "name": "Switch Inward Heel", "ls": "↓ ↖", "rs": "→" },
-            { "name": "Switch Hardflip 360", "ls": "↓ ↺", "rs": "←" },
-            { "name": "Switch BS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" }
+            { "name": "Switch Hardflip 360", "ls": "↓ ↺", "rs": "←" }
           ]
         },
         {
           "name": "Low Pop",
           "tricks": [
+            { "name": "Switch BS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" },
             { "name": "Switch FS Pop Shove-it 360", "ls": "↓ ↻", "rs": "↑" },
             { "name": "Switch 360 Flip", "ls": "↓ ↻", "rs": "←" },
             { "name": "Switch Laser Flip", "ls": "↓ ↺", "rs": "→" },

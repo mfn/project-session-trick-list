@@ -21,13 +21,13 @@
             { "name": "Varial Heel", "ls": "↓ ↗", "rs": "→" },
             { "name": "Hardflip", "ls": "↓ ↗", "rs": "←" },
             { "name": "Inward Heel", "ls": "↓ ↖", "rs": "→" },
-            { "name": "Hardflip 360", "ls": "↓ ↺", "rs": "←" },
-            { "name": "FS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" }
+            { "name": "Hardflip 360", "ls": "↓ ↺", "rs": "←" }
           ]
         },
         {
           "name": "Low Pop",
           "tricks": [
+            { "name": "FS Pop Shove-it 360", "ls": "↓ ↺", "rs": "↑" },
             { "name": "BS Pop Shove-it 360", "ls": "↓ ↻", "rs": "↑" },
             { "name": "360 Flip", "ls": "↓ ↻", "rs": "←" },
             { "name": "Laserflip", "ls": "↓ ↺", "rs": "→" },
