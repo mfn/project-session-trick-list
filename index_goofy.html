@@ -157,6 +157,19 @@
     min-width: 0;
   }
 
+  .stance-switch {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 11pt;
+  }
+  .stance-switch a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  .stance-switch a:hover {
+    text-decoration: underline;
+  }
+
   /* Screen preview: approximate landscape A4 */
   @media screen {
     body { padding: 20px; }
@@ -172,10 +185,15 @@
 
   @media print {
     body { padding: 0; }
+    .stance-switch { display: none; }
   }
 </style>
 </head>
 <body>
+
+<div class="stance-switch">
+  <a href="index.html">Switch to Regular Stance Guide</a>
+</div>
 
 <!-- ==================== PAGE 1: Normal + Nollie — Basic Flip Tricks ==================== -->
 <div class="page">

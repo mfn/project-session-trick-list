@@ -16,6 +16,13 @@ const outPath  = path.resolve(__dirname, outFile);
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const stance = data.stance; // "Regular" or "Goofy"
 
+const stanceMap = {
+  Regular: { other: 'index_goofy.html', otherLabel: 'Goofy' },
+  Goofy:   { other: 'index.html',       otherLabel: 'Regular' },
+};
+const otherFile  = stanceMap[stance]?.other  || (stance === 'Regular' ? 'index_goofy.html' : 'index.html');
+const otherLabel = stanceMap[stance]?.otherLabel || (stance === 'Regular' ? 'Goofy' : 'Regular');
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -293,6 +300,19 @@ const css = `\
     min-width: 0;
   }
 
+  .stance-switch {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 11pt;
+  }
+  .stance-switch a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  .stance-switch a:hover {
+    text-decoration: underline;
+  }
+
   /* Screen preview: approximate landscape A4 */
   @media screen {
     body { padding: 20px; }
@@ -308,6 +328,7 @@ const css = `\
 
   @media print {
     body { padding: 0; }
+    .stance-switch { display: none; }
   }`;
 
 // ---------------------------------------------------------------------------
@@ -328,6 +349,10 @@ ${css}
 </style>
 </head>
 <body>
+
+<div class="stance-switch">
+  <a href="${esc(otherFile)}">Switch to ${esc(otherLabel)} Stance Guide</a>
+</div>
 
 <!-- ==================== PAGE 1: Normal + Nollie — Basic Flip Tricks ==================== -->
 <div class="page">
